@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @font-face {
+    font-family: Storm;
+    src: url('Storm Gust.otf') format(opentype), url('fonts/Storm Gust.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+        }
+        body{
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgb(2,0,36);
+background: linear-gradient(180deg, #2ec4b6 30%, #cbf3f0 40%, #ffffff 100%);
+            margin: 0px;
+            height: 100vh;
+        }
+        header{
+            background-color: #cbf3f0;
+            padding: 10px;
+            margin: 10px 50px 20px 50px;
+            border-radius: 5px;
+            box-shadow: 15px 15px 7px 1px #00000056 ;
+            outline:10px solid #ff9f1c;
+           
+        }
+        header > h1{
+            text-align: center;
+            font-family: 'Storm', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+        nav{
+            background-color: #ffbf69;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 3px 7px 1px #926e3fbd ;
+            font-family: 'Storm', 'Times New Roman', Times, serif;
+            text-align: center;
+
+           
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-right: 50px;
+            font-size: 1.5em;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: aquamarine;
+            font-style: italic;
+
+        }
+        main{
+            background-color: #ff9f1c;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 7px 7px 1px #926e3fbd ;
+           
+        }
+        article{
+            background-color: #cbf3f0;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px #00000067 ; 
+        }
+        p{
+            text-indent: 30px;
+        }
+        h2{
+            font-family: 'Storm', 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        article > aside {
+            background-color: #ffbf69;
+            font-weight: bold;
+            font-style: italic;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 3px 3px 7px 1px #926e3fbd ;
+        }
+        footer{
+            background-color: #ff9f1c;
+            color: black;
+            text-align: center;
+            padding: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+         
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam reprehenderit a sint pariatur molestias unde debitis iure tempore tenetur eius totam accusamus placeat minus exercitationem eligendi quisquam cum suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis, consequuntur aliquid pariatur voluptas assumenda nam iste tempora quaerat itaque iure, vitae placeat esse consequatur officiis velit explicabo illo porro.
+                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam reprehenderit a sint pariatur molestias unde debitis iure tempore tenetur eius totam accusamus placeat minus exercitationem eligendi quisquam cum suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis, consequuntur aliquid pariatur voluptas assumenda nam iste tempora quaerat itaque iure, vitae placeat esse consequatur officiis velit explicabo illo porro.
+                </p>
+                <aside>
+                    <p>Artigo escrito por Igor</p>
+                </aside>
+            </article>
+            <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam reprehenderit a sint pariatur molestias unde debitis iure tempore tenetur eius totam accusamus placeat minus exercitationem eligendi quisquam cum suscipit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam reprehenderit a sint pariatur molestias unde debitis iure tempore tenetur eius totam accusamus placeat minus exercitationem eligendi quisquam cum suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis, consequuntur aliquid pariatur voluptas assumenda nam iste tempora quaerat itaque iure, vitae placeat esse consequatur officiis velit explicabo illo porro.
+            </p>
+            <aside>
+                <p>Artigo escrito por Igor</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Igor</p>
+    </footer>
+</body>
+</html>
