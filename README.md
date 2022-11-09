@@ -1,2 +1,1 @@
-TreinoCursoEmVideo
-Aprendendo HTML, CSS E JavaScript
+Aprendendo HTML, CSS E JavaScript!
