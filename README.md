@@ -1,2 +1,2 @@
-# Treino-CursoEmVideo-mod1
+TreinoCursoEmVideo
 Aprendendo HTML, CSS E JavaScript
