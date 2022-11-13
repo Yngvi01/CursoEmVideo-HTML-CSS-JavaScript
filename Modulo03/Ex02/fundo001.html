@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagen de Fundo</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(imagens/wallpaper004.jpg);
+            background-repeat: no-repeat;
+        }
+        div.quadrado {
+         border: 3px solid black;
+         width: 300px;
+         height: 300px;   
+         display: inline-block;
+         border-radius: 10px;
+         background-color: grey;
+         margin-right: 15px; 
+         box-shadow: 1px 1px 7px rgb(0, 0, 0); 
+         margin-top: 50px;       
+         transition-duration: .3s;
+         transition-timing-function: ease-out;
+       
+        }
+        div#q1{
+            background-color: darkmagenta;
+        }
+        div#q2{
+            background-image: linear-gradient( rgb(0, 0, 0), rgb(52, 9, 155), darkmagenta, rgb(255, 255, 255));
+        }
+        div#q3{
+            background-image: url(imagens/pattern001.png);
+        }
+
+        div.quadrado:hover{
+            cursor: pointer;
+            opacity: 100%;
+            border: 10px solid black;
+            transition-duration: .5s;
+            transition-timing-function: ease-in;
+            transform: rotate(10deg) scale(1.2);
+            box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.411);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+        <h1 style="display: none;">Teste</h1>
+
+    </div>
+</body>
+</html>
