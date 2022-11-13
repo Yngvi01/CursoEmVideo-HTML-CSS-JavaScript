@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+ header{
+    background-color: black;
+    color: white;
+    width: 98vw;
+    margin: auto;
+    padding: 10px;
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28312.jpg?w=900&t=st=1668318957~exp=1668319557~hmac=be2f430c3a5f00aab3b8054d917c43f3913990751c6f43f00fe0569ab437b10b);
+    background-position: center center;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 5px black;
+    
+ }
+
+.menu li{
+display: inline-block;
+margin-top: 30px;
+margin-left: 15px;
+background-color: rgba(75, 58, 58, 0.418);
+border-radius: 5px;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.507);
+transition-timing-function: ease-in-out;
+ }
+
+ li:first-child{
+    margin-left: 4px;
+ }
+
+ li > a{
+    text-align: center;
+    padding: 5px 50px 5px 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition-timing-function: ease-in-out;
+ }
+  li > a:hover{
+    background-color: rgba(255, 255, 255, 0.192);
+    text-shadow: 0px 0px 5px white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white;
+    transition-duration: .5s;
+  }
+
+ #titulo{
+    text-align: center;
+    padding-top: 30px;
+ }
