@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 95vw;
+            height: 400px;
+            display: block;
+            margin: auto;
+            border: 2px solid black;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, adipisci. Quia eligendi cupiditate veniam dolore aut aliquam tempora minus, eius, qui itaque eos corrupti animi illo deleniti error neque quaerat.</p>
+    <ul>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Primeiro link</a></li>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Segundo link</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceiro link</a></li>
+    </ul>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eveniet, blanditiis praesentium in pariatur quos aliquam, esse amet at neque quasi atque? Quis, sit distinctio! Sit ex quibusdam quasi iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui delectus veritatis, in molestiae, commodi neque deleniti ipsum culpa sapiente voluptatem, incidunt repellendus dolore modi ipsam error maiores nobis id deserunt.</p>
+    <iframe name="frame" srcdoc=" <h1>teste</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illum delectus voluptas, labore, corporis quae ducimus aperiam doloremque error facilis deserunt blanditiis quod repellendus nemo ratione! Quisquam numquam fugit voluptatem.lorem</p>
+        <p>É possivel usar o parametro srcdoc para inserir html no iframe</p>
+     " frameborder="1">
+        <p>Infelizmente seu navegador não é compativel</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae voluptatum. Iusto voluptate quidem eligendi magnam ut molestiae sequi adipisci, dignissimos, quod numquam illo tenetur ad ex, consectetur nostrum ipsam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit amet iusto repellendus numquam necessitatibus facilis? Cupiditate quis dignissimos, quos, excepturi sequi sed fuga dicta consequatur repellat error at voluptate eaque.</p>
+</body>
+</html>
