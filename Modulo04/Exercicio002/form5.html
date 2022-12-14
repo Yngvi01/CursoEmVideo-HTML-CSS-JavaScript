@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Jogos</h1>
+    <form action="cadastro.php" method="get">
+        <!-- Input do tipo radio deve ter o mesmo nome -->
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imasc" value="M"> <label for="imasc">Masculino</label>
+            <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Jogos Favoritos</legend>
+            <input type="checkbox" name="souls" id="isouls"> <label for="isouls">Dark Souls</label> <br>
+            <input type="checkbox" name="honor" id="ihonor"> <label for="ihonor">For Honor</label> <br>
+            <input type="checkbox" name="nautica" id="inautica"> <label for="inautica">Subnautica</label> <br>
+            <input type="checkbox" name="borne" id="iborne"> <label for="iborne">Bloodborne</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
